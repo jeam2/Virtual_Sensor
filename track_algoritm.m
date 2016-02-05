@@ -19,8 +19,11 @@
 % Template = s(1).cdata; %first frame
 
 
-imagepath = 'C:\Users\joao_erik\Google Drive\UFPE\Mestrado\Virtual_Sensor_Algoritmo_MATLAB\people.jpg';
-imagepath2 = 'C:\Users\joao_erik\Google Drive\UFPE\Mestrado\Virtual_Sensor_Algoritmo_MATLAB\people.jpg';
+%imagepath = 'C:\Users\joao_erik\Google Drive\UFPE\Mestrado\Virtual_Sensor_Algoritmo_MATLAB\Virtual_Sensor\people.jpg';
+%imagepath2 = 'C:\Users\joao_erik\Google Drive\UFPE\Mestrado\Virtual_Sensor_Algoritmo_MATLAB\Virtual_Sensor\people.jpg';
+
+imagepath = 'people.jpg';
+imagepath2 = 'people.jpg';
 
 Template = imread(imagepath);
 %imshow(Template);
@@ -177,9 +180,14 @@ plot(x_radius_im,Ps(1,:));
 
 
  %** Example: http://www.mathworks.com/help/images/ref/normxcorr2.html?refresh=true
-    %Use cross-correlation to find template in image:
+ %Use cross-correlation to find template in image:
  
  
+ 
+ 
+ 
+
+    
     
  
  
